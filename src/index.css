@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base
+{
+    body
+    {
+        @apply h-screen grid place-items-center bg-blue-600 bg-[url("src/assets/BackGround.png")] bg-no-repeat bg-cover;
+        font-family: 'Itim', cursive;
+    }
+}
